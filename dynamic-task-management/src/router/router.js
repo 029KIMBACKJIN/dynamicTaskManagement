@@ -6,7 +6,7 @@ import UserSettings from "@/components/UserSettings"
 
 
 const routes = [
-    { path : "/main", name : "MainTask", component : MainTask},
+    { path : "/", name : "MainTask", component : MainTask},
     { path : "/createtask", name : "CreateTask", component : CreateTask },
     { path : "/usercalendar", name : "UserCalendar", component : UserCalendar },
     { path : "/usersettings", name : "UserSettings", component : UserSettings },
